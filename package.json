@@ -1,0 +1,36 @@
+{
+  "name": "pm-tweet",
+  "version": "1.0.0",
+  "description": "Private messages microservice - Scalable architecture",
+  "main": "index.js",
+  "scripts": {
+    "test": "scripts.test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohDid/pm-service.git"
+  },
+  "keywords": [
+    "npm",
+    "jwt",
+    "microservice",
+    "scalable",
+    "nodejs",
+    "ecam"
+  ],
+  "author": "Moh-Didou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohDid/pm-service/issues"
+  },
+  "homepage": "https://github.com/MohDid/pm-service#readme",
+  "dependencies": {
+    "curl": "^0.1.4",
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2",
+    "lodash": "^4.17.10",
+    "sequelize": "^4.37.7",
+    "sqlite3": "^4.0.0"
+  }
+}
